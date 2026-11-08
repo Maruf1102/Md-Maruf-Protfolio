@@ -1,0 +1,4039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Maruf | Business Development, Team Lead & Software/AI Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+:root {
+  /* Deep & Light Balanced Executive Twilight Palette (Neither pitch black nor stark white) */
+  --bg-color: #131c31;
+  --bg-elevated: #1b2742;
+  --bg-card: rgba(30, 43, 72, 0.78);
+  --bg-card-hover: rgba(39, 55, 92, 0.92);
+  --text-main: #f8fafc;
+  --text-muted: #cbd5e1;
+  --text-dim: #94a3b8;
+
+  /* Luminous Cyan, Soft Indigo-Violet, Mint Emerald & Warm Amber */
+  --primary-cyan: #22d3ee;
+  --primary-cyan-hover: #06b6d4;
+  --accent-purple: #a78bfa;
+  --accent-emerald: #34d399;
+  --accent-amber: #fbbf24;
+  --accent-coral: #fb7185;
+
+  --border-subtle: rgba(255, 255, 255, 0.12);
+  --border-cyan: rgba(34, 211, 238, 0.45);
+  --border-purple: rgba(167, 139, 250, 0.45);
+
+  --shadow-soft: 0 16px 40px -10px rgba(7, 12, 24, 0.55), 0 4px 16px -4px rgba(34, 211, 238, 0.06);
+  --shadow-glow-cyan: 0 10px 30px -4px rgba(34, 211, 238, 0.32);
+  --shadow-glow-purple: 0 10px 30px -4px rgba(167, 139, 250, 0.32);
+
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --transition: all 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Optional Soft Pearl-Slate Day Mode when toggled */
+body.dark-theme {
+  --bg-color: #e8eef7;
+  --bg-elevated: #f5f8fc;
+  --bg-card: rgba(255, 255, 255, 0.86);
+  --bg-card-hover: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #334155;
+  --text-dim: #64748b;
+
+  --primary-cyan: #0891b2;
+  --primary-cyan-hover: #0e7490;
+  --accent-purple: #6366f1;
+  --accent-emerald: #059669;
+  --accent-amber: #d97706;
+  --accent-coral: #e11d48;
+
+  --border-subtle: rgba(15, 23, 42, 0.1);
+  --border-cyan: rgba(8, 145, 178, 0.4);
+  --border-purple: rgba(99, 102, 241, 0.4);
+
+  --shadow-soft: 0 14px 36px -8px rgba(15, 23, 42, 0.09);
+  --shadow-glow-cyan: 0 10px 28px -6px rgba(8, 145, 178, 0.25);
+  --shadow-glow-purple: 0 10px 28px -6px rgba(99, 102, 241, 0.25);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-color);
+  /* Rich Deep-Light Hybrid Aurora Mesh */
+  background-image:
+    radial-gradient(circle at 12% 10%, rgba(34, 211, 238, 0.18), transparent 36%),
+    radial-gradient(circle at 86% 16%, rgba(167, 139, 250, 0.18), transparent 36%),
+    radial-gradient(circle at 50% 52%, rgba(52, 211, 153, 0.1), transparent 42%),
+    radial-gradient(circle at 20% 85%, rgba(251, 191, 36, 0.09), transparent 35%),
+    linear-gradient(180deg, #16223b 0%, #111a2e 50%, #162038 100%);
+  overflow-x: hidden;
+  line-height: 1.65;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+body.dark-theme {
+  background-image:
+    radial-gradient(circle at 12% 10%, rgba(8, 145, 178, 0.12), transparent 36%),
+    radial-gradient(circle at 86% 16%, rgba(99, 102, 241, 0.12), transparent 36%),
+    linear-gradient(180deg, #edf2f9 0%, #e2eaf5 100%);
+}
+
+/* Alternating Luminous Frosted Section Bands for Deep-Light Contrast */
+#about,
+#services,
+#skills,
+#publications {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.035) 0%, rgba(34, 211, 238, 0.03) 50%, rgba(255, 255, 255, 0.02) 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+body.dark-theme #about,
+body.dark-theme #services,
+body.dark-theme #skills,
+body.dark-theme #publications {
+  background: rgba(255, 255, 255, 0.55);
+  border-top: 1px solid rgba(15, 23, 42, 0.06);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+/* Top Scroll Progress Bar */
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3.5px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--primary-cyan), var(--accent-purple), var(--accent-emerald));
+  z-index: 2500;
+  box-shadow: 0 0 14px var(--primary-cyan);
+  transition: width 0.1s linear;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(34, 211, 238, 0.45);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-cyan);
+}
+
+/* Container & Section Defaults */
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+section {
+  padding: 95px 0;
+  position: relative;
+}
+
+.text-cyan { color: var(--primary-cyan); }
+.text-purple { color: var(--accent-purple); }
+.text-emerald { color: var(--accent-emerald); }
+.text-coral { color: var(--accent-coral); }
+
+.gradient-text {
+  background: linear-gradient(135deg, #67e8f9 0%, #c4b5fd 50%, #6ee7b7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.dark-theme .gradient-text {
+  background: linear-gradient(135deg, #0891b2 0%, #6366f1 55%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 740px;
+  margin: 0 auto 56px;
+}
+
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  margin-bottom: 16px;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.12);
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.18;
+  color: var(--text-main);
+  margin-bottom: 14px;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+/* Interactive Spotlight Card Glow + Frosted Top Highlight */
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.16), var(--shadow-soft);
+}
+
+.spotlight-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    480px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+    rgba(34, 211, 238, 0.14),
+    transparent 45%
+  );
+  pointer-events: none;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  transition: var(--transition);
+  background: rgba(19, 28, 49, 0.78);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+body.dark-theme nav {
+  background: rgba(232, 238, 247, 0.85);
+}
+
+nav.scrolled {
+  height: 70px;
+  box-shadow: var(--shadow-soft);
+  border-bottom-color: var(--border-cyan);
+}
+
+.nav-container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: var(--text-main);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: -0.5px;
+}
+
+.logo-mark {
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  background: linear-gradient(135deg, var(--primary-cyan), var(--accent-purple));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b1324;
+  font-weight: 900;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow-glow-cyan);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.89rem;
+  transition: var(--transition);
+  position: relative;
+  padding: 4px 2px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--primary-cyan);
+}
+
+.nav-links a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2.5px;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--primary-cyan), var(--accent-purple));
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cmd-trigger-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 13px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: inherit;
+}
+
+.cmd-trigger-btn:hover {
+  border-color: var(--primary-cyan);
+  color: var(--primary-cyan);
+}
+
+.cmd-kbd {
+  background: rgba(34, 211, 238, 0.15);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  color: var(--primary-cyan);
+  font-weight: 800;
+}
+
+.theme-btn,
+.mobile-toggle {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 1rem;
+}
+
+.theme-btn:hover,
+.mobile-toggle:hover {
+  border-color: var(--primary-cyan);
+  color: var(--primary-cyan);
+  transform: translateY(-2px);
+}
+
+.mobile-toggle {
+  display: none;
+}
+
+.btn {
+  padding: 13px 26px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.93rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: var(--transition);
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn-sm {
+  padding: 9px 18px;
+  font-size: 0.84rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-cyan) 0%, var(--accent-emerald) 100%);
+  color: #091326;
+  box-shadow: var(--shadow-glow-cyan);
+}
+
+body.dark-theme .btn-primary {
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px -6px rgba(34, 211, 238, 0.52);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  color: #ffffff;
+  box-shadow: var(--shadow-glow-purple);
+}
+
+.btn-gold:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px -6px rgba(167, 139, 250, 0.5);
+}
+
+.btn-outline {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-main);
+  border-color: var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+}
+
+.btn-outline:hover {
+  border-color: var(--primary-cyan);
+  color: var(--primary-cyan);
+  background: rgba(34, 211, 238, 0.1);
+  transform: translateY(-3px);
+}
+
+/* Hero Section */
+#home {
+  padding: 148px 0 70px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.18fr 0.82fr;
+  gap: 54px;
+  align-items: center;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(52, 211, 153, 0.14);
+  border: 1px solid rgba(52, 211, 153, 0.38);
+  color: var(--accent-emerald);
+  padding: 7px 16px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--accent-emerald);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent-emerald);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.35); opacity: 0.65; }
+}
+
+.hero-left h1 {
+  font-size: clamp(2.6rem, 5vw, 4.15rem);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+}
+
+.dynamic-type-line {
+  font-size: clamp(1.1rem, 2.2vw, 1.42rem);
+  font-weight: 800;
+  color: var(--accent-purple);
+  margin-bottom: 20px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.type-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1.25em;
+  background: var(--primary-cyan);
+  animation: blink 0.9s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.hero-role-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.role-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.role-chip.cyan {
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.34);
+}
+
+.role-chip.purple {
+  background: rgba(167, 139, 250, 0.14);
+  color: var(--accent-purple);
+  border: 1px solid rgba(167, 139, 250, 0.34);
+}
+
+/* Dual Focus Card */
+.specialist-card {
+  background: linear-gradient(145deg, rgba(39, 56, 94, 0.85), rgba(24, 35, 62, 0.85));
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 26px;
+  box-shadow: var(--shadow-soft);
+  position: relative;
+  overflow: hidden;
+}
+
+body.dark-theme .specialist-card {
+  background: var(--bg-card);
+  border-color: var(--border-subtle);
+}
+
+.specialist-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--primary-cyan), var(--accent-purple));
+}
+
+.specialist-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.specialist-title {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--primary-cyan);
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.specialist-heading {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--text-main);
+}
+
+.specialist-bar {
+  height: 7px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+body.dark-theme .specialist-bar {
+  background: rgba(15, 23, 42, 0.1);
+}
+
+.specialist-bar-fill {
+  height: 100%;
+  width: 92%;
+  background: linear-gradient(90deg, var(--primary-cyan), var(--accent-purple), var(--accent-emerald));
+  border-radius: 999px;
+}
+
+.specialist-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  padding: 5px 13px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.tag-cyan {
+  background: rgba(34, 211, 238, 0.15);
+  color: var(--primary-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.35);
+}
+
+.tag-purple {
+  background: rgba(167, 139, 250, 0.15);
+  color: var(--accent-purple);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+}
+
+.tag-neutral {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+body.dark-theme .tag-neutral {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+.hero-bio {
+  font-size: 1.03rem;
+  color: var(--text-muted);
+  margin-bottom: 28px;
+  line-height: 1.72;
+}
+
+.hero-bio strong {
+  color: var(--text-main);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+/* Hero Right Executive Profile Card */
+.hero-right {
+  position: relative;
+}
+
+.profile-showcase-card {
+  background: linear-gradient(155deg, rgba(41, 59, 98, 0.85), rgba(22, 33, 58, 0.9));
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--border-cyan);
+  border-radius: var(--radius-xl);
+  padding: 26px;
+  box-shadow: var(--shadow-glow-cyan);
+  position: relative;
+  z-index: 2;
+}
+
+body.dark-theme .profile-showcase-card {
+  background: var(--bg-card);
+}
+
+.profile-visual-frame {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #172a4a 0%, #2b225a 52%, #134e4a 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  aspect-ratio: 4 / 4.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+body.dark-theme .profile-visual-frame {
+  background: linear-gradient(145deg, #e0f2fe 0%, #e0e7ff 52%, #d1fae5 100%);
+  border-color: rgba(8, 145, 178, 0.25);
+}
+
+.profile-photo-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.profile-monogram-layer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.profile-top-badges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verified-pill {
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(8px);
+  color: #f8fafc;
+  padding: 6px 13px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+body.dark-theme .verified-pill {
+  background: rgba(255, 255, 255, 0.9);
+  color: #0f172a;
+  border-color: rgba(15, 23, 42, 0.12);
+}
+
+.avatar-centerpiece {
+  margin: auto;
+  text-align: center;
+}
+
+.avatar-ring {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 0 auto 14px;
+  background: linear-gradient(135deg, var(--primary-cyan), var(--accent-purple), var(--accent-emerald));
+  padding: 3.5px;
+  box-shadow: 0 0 36px rgba(34, 211, 238, 0.45);
+}
+
+.avatar-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #131f38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.55rem;
+  font-weight: 800;
+  color: #f8fafc;
+  letter-spacing: -1px;
+}
+
+body.dark-theme .avatar-inner {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.avatar-centerpiece h3 {
+  color: #f8fafc;
+  font-size: 1.48rem;
+  font-weight: 800;
+}
+
+body.dark-theme .avatar-centerpiece h3 {
+  color: #0f172a;
+}
+
+.avatar-centerpiece p {
+  color: #cbd5e1;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+body.dark-theme .avatar-centerpiece p {
+  color: #334155;
+}
+
+.profile-quick-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background: rgba(15, 23, 42, 0.78);
+  backdrop-filter: blur(10px);
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+body.dark-theme .profile-quick-metrics {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(15, 23, 42, 0.1);
+}
+
+.pq-item {
+  text-align: center;
+}
+
+.pq-item strong {
+  display: block;
+  color: var(--primary-cyan);
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.pq-item:nth-child(2) strong {
+  color: var(--accent-purple);
+}
+
+.pq-item span {
+  font-size: 0.7rem;
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
+body.dark-theme .pq-item span {
+  color: #475569;
+}
+
+.profile-contact-strip {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.location-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.social-mini {
+  display: flex;
+  gap: 8px;
+}
+
+.social-mini a {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.social-mini a:hover {
+  background: var(--primary-cyan);
+  color: #0b1324;
+  border-color: var(--primary-cyan);
+  transform: translateY(-2px);
+}
+
+.float-badge {
+  position: absolute;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  padding: 12px 18px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 3;
+  animation: float 4.5s ease-in-out infinite;
+}
+
+.float-badge i {
+  font-size: 1.35rem;
+}
+
+.float-badge strong {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-main);
+}
+
+.float-badge span {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.float-tl {
+  top: -18px;
+  left: -28px;
+  border-color: var(--border-cyan);
+}
+
+.float-br {
+  bottom: 28px;
+  right: -24px;
+  border-color: var(--border-purple);
+  animation-delay: 1.5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Marquee Tech & Business Ribbon */
+.ribbon-bar {
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  background: rgba(27, 39, 66, 0.75);
+  padding: 16px 0;
+  overflow: hidden;
+}
+
+body.dark-theme .ribbon-bar {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.ribbon-track {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ribbon-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.83rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ribbon-item i {
+  color: var(--primary-cyan);
+}
+
+.ribbon-item:nth-child(even) i {
+  color: var(--accent-purple);
+}
+
+/* Stats Section */
+#stats {
+  padding: 55px 0 60px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.stat-card {
+  background: linear-gradient(155deg, rgba(35, 50, 84, 0.82), rgba(24, 35, 60, 0.85));
+  backdrop-filter: blur(12px);
+  padding: 32px 22px;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-subtle);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+body.dark-theme .stat-card {
+  background: var(--bg-card);
+}
+
+.stat-card:hover {
+  border-color: var(--border-cyan);
+  transform: translateY(-6px);
+}
+
+.stat-icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto 16px;
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+
+.stat-card:nth-child(2) .stat-icon {
+  background: rgba(167, 139, 250, 0.14);
+  color: var(--accent-purple);
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+.stat-card:nth-child(3) .stat-icon {
+  background: rgba(52, 211, 153, 0.14);
+  color: var(--accent-emerald);
+  border-color: rgba(52, 211, 153, 0.3);
+}
+
+.stat-card:nth-child(4) .stat-icon {
+  background: rgba(251, 113, 133, 0.14);
+  color: var(--accent-coral);
+  border-color: rgba(251, 113, 133, 0.3);
+}
+
+.stat-card h2 {
+  font-size: 2.55rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.1;
+}
+
+.stat-card p {
+  font-weight: 800;
+  font-size: 0.78rem;
+  color: var(--primary-cyan);
+  margin-top: 8px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.stat-card:nth-child(2) p {
+  color: var(--accent-purple);
+}
+
+.stat-card span.stat-desc {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* About & Core Competencies */
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 32px;
+  margin-bottom: 50px;
+}
+
+.about-summary-card,
+.education-highlight-card {
+  background: var(--bg-card);
+  padding: 36px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-subtle);
+}
+
+.about-summary-card {
+  border-left: 4px solid var(--primary-cyan);
+}
+
+.education-highlight-card {
+  border-left: 4px solid var(--accent-purple);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-summary-card h3,
+.education-highlight-card h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-summary-card p {
+  color: var(--text-muted);
+  font-size: 1.02rem;
+  margin-bottom: 16px;
+}
+
+.about-summary-card p:last-child {
+  margin-bottom: 0;
+}
+
+.edu-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+body.dark-theme .edu-item {
+  background: rgba(8, 145, 178, 0.05);
+}
+
+.edu-item h4 {
+  font-size: 1.08rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.edu-item .uni {
+  color: var(--primary-cyan);
+  font-weight: 700;
+  font-size: 0.91rem;
+  margin-bottom: 10px;
+}
+
+.edu-meta {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+
+/* Signature Sales & Execution Framework */
+.workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.workflow-step {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  position: relative;
+  transition: var(--transition);
+  box-shadow: var(--shadow-soft);
+}
+
+.workflow-step:hover {
+  border-color: var(--border-purple);
+  transform: translateY(-6px);
+}
+
+.step-num {
+  font-size: 0.78rem;
+  font-weight: 900;
+  color: var(--accent-purple);
+  background: rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(167, 139, 250, 0.34);
+  padding: 4px 12px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+}
+
+.workflow-step h4 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.workflow-step p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Interactive Role-Fit & Value Simulator */
+.simulator-wrapper {
+  background: linear-gradient(150deg, rgba(35, 50, 84, 0.88), rgba(22, 33, 58, 0.92));
+  border: 1px solid var(--border-cyan);
+  border-radius: var(--radius-xl);
+  padding: 42px;
+  box-shadow: var(--shadow-soft);
+}
+
+body.dark-theme .simulator-wrapper {
+  background: var(--bg-card);
+}
+
+.sim-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.sim-tab-btn {
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+body.dark-theme .sim-tab-btn {
+  background: var(--bg-elevated);
+}
+
+.sim-tab-btn i {
+  font-size: 1.2rem;
+  color: var(--primary-cyan);
+}
+
+.sim-tab-btn:hover,
+.sim-tab-btn.active {
+  background: linear-gradient(135deg, var(--primary-cyan), var(--accent-purple));
+  color: #0b1324;
+  border-color: transparent;
+  box-shadow: var(--shadow-glow-cyan);
+  transform: translateY(-2px);
+}
+
+body.dark-theme .sim-tab-btn:hover,
+body.dark-theme .sim-tab-btn.active {
+  color: #ffffff;
+}
+
+.sim-tab-btn.active i,
+.sim-tab-btn:hover i {
+  color: inherit;
+}
+
+.sim-panel {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.sim-left h3 {
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 10px;
+}
+
+.sim-left p {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  margin-bottom: 20px;
+}
+
+.sim-deliverables {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sim-deliverables li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.92rem;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.sim-deliverables li i {
+  color: var(--primary-cyan);
+  margin-top: 4px;
+}
+
+.sim-metrics-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+body.dark-theme .sim-metrics-box {
+  background: rgba(8, 145, 178, 0.06);
+}
+
+.sim-metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.sim-metric-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.sim-metric-row span {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.sim-metric-row strong {
+  font-size: 1.02rem;
+  color: var(--primary-cyan);
+  font-weight: 800;
+  text-align: right;
+}
+
+/* Services / What I Do Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.service-card {
+  background: var(--bg-card);
+  padding: 34px 28px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-subtle);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-card:hover {
+  border-color: var(--border-cyan);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-glow-cyan);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(167, 139, 250, 0.14);
+  color: var(--accent-purple);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  border: 1px solid rgba(167, 139, 250, 0.3);
+}
+
+.service-card:nth-child(odd) .service-icon {
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  border-color: rgba(34, 211, 238, 0.3);
+}
+
+.service-card h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: var(--text-main);
+}
+
+.service-card p {
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  margin-bottom: 18px;
+}
+
+.service-bullets {
+  list-style: none;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 14px;
+}
+
+.service-bullets li {
+  font-size: 0.83rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-bullets li i {
+  color: var(--primary-cyan);
+  font-size: 0.75rem;
+}
+
+/* Filter Bar & Search Input */
+.projects-controls-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 38px;
+}
+
+.filter-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 0.86rem;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: inherit;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: linear-gradient(135deg, var(--primary-cyan), var(--accent-purple));
+  color: #0b1324;
+  border-color: transparent;
+  box-shadow: var(--shadow-glow-cyan);
+}
+
+body.dark-theme .filter-btn:hover,
+body.dark-theme .filter-btn.active {
+  color: #ffffff;
+}
+
+.project-search-box {
+  position: relative;
+  min-width: 280px;
+}
+
+.project-search-box i {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.project-search-box input {
+  width: 100%;
+  padding: 11px 16px 11px 42px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-main);
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.project-search-box input:focus {
+  outline: none;
+  border-color: var(--primary-cyan);
+  box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.18);
+}
+
+/* Experience Timeline */
+.journey-container {
+  max-width: 960px;
+  margin: 42px auto 0;
+  position: relative;
+  padding-left: 38px;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  bottom: 8px;
+  width: 2.5px;
+  background: linear-gradient(180deg, var(--primary-cyan), var(--accent-purple), rgba(148,163,184,0.2));
+}
+
+.journey-card {
+  background: var(--bg-card);
+  padding: 30px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 26px;
+  position: relative;
+  border: 1px solid var(--border-subtle);
+  transition: var(--transition);
+}
+
+.journey-card:hover {
+  border-color: var(--border-cyan);
+  transform: translateX(4px);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -34px;
+  top: 32px;
+  width: 14px;
+  height: 14px;
+  background: var(--primary-cyan);
+  border-radius: 50%;
+  border: 3px solid var(--bg-color);
+  box-shadow: 0 0 12px var(--primary-cyan);
+}
+
+.journey-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.journey-top h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.company {
+  color: var(--accent-purple);
+  font-weight: 700;
+  font-size: 0.98rem;
+  margin-top: 2px;
+}
+
+.journey-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.badge-sm {
+  background: rgba(34, 211, 238, 0.14);
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: var(--primary-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+
+.badge-loc {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+.journey-list {
+  margin-left: 18px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.journey-list li {
+  margin-bottom: 8px;
+}
+
+.journey-list li strong {
+  color: var(--text-main);
+}
+
+/* Skills Arsenal Matrix + Proficiency Bars */
+.proficiency-strip {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-bottom: 30px;
+}
+
+.prof-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 22px 26px;
+  box-shadow: var(--shadow-soft);
+}
+
+.prof-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.prof-top span:last-child {
+  color: var(--primary-cyan);
+}
+
+.prof-track {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+body.dark-theme .prof-track {
+  background: rgba(15, 23, 42, 0.1);
+}
+
+.prof-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--primary-cyan), var(--accent-purple));
+}
+
+.skills-showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+.skill-box {
+  padding: 34px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  transition: var(--transition);
+}
+
+.skill-box:hover {
+  transform: translateY(-4px);
+}
+
+.skill-box.cyan-tint {
+  background: linear-gradient(145deg, rgba(34, 211, 238, 0.1), var(--bg-card));
+  border-color: rgba(34, 211, 238, 0.3);
+}
+
+.skill-box.purple-tint {
+  background: linear-gradient(145deg, rgba(167, 139, 250, 0.1), var(--bg-card));
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+.skill-box.emerald-tint {
+  background: linear-gradient(145deg, rgba(52, 211, 153, 0.1), var(--bg-card));
+  border-color: rgba(52, 211, 153, 0.3);
+}
+
+.skill-box.amber-tint {
+  background: linear-gradient(145deg, rgba(251, 113, 133, 0.1), var(--bg-card));
+  border-color: rgba(251, 113, 133, 0.3);
+}
+
+.skill-box.full-width {
+  grid-column: 1 / -1;
+}
+
+.skill-box-title {
+  font-size: 1.08rem;
+  font-weight: 800;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-main);
+}
+
+.pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill {
+  padding: 8px 15px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.83rem;
+  transition: var(--transition);
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+}
+
+.pill-cyan {
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.32);
+}
+
+.pill-purple {
+  background: rgba(167, 139, 250, 0.14);
+  color: var(--accent-purple);
+  border: 1px solid rgba(167, 139, 250, 0.32);
+}
+
+.pill-emerald {
+  background: rgba(52, 211, 153, 0.14);
+  color: var(--accent-emerald);
+  border: 1px solid rgba(52, 211, 153, 0.32);
+}
+
+.pill-amber {
+  background: rgba(251, 113, 133, 0.14);
+  color: var(--accent-coral);
+  border: 1px solid rgba(251, 113, 133, 0.32);
+}
+
+.pill-gray {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+}
+
+body.dark-theme .pill-gray {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.project-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-subtle);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-glow-cyan);
+  border-color: var(--border-cyan);
+}
+
+.project-banner {
+  height: 175px;
+  position: relative;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
+
+.banner-ops {
+  background: linear-gradient(135deg, #0e7490 0%, #0d9488 55%, #22d3ee 135%);
+}
+.banner-sales {
+  background: linear-gradient(135deg, #4338ca 0%, #6d28d9 55%, #a78bfa 135%);
+}
+.banner-retail {
+  background: linear-gradient(135deg, #047857 0%, #0d9488 55%, #34d399 135%);
+}
+.banner-ecom {
+  background: linear-gradient(135deg, #9d174d 0%, #e11d48 60%, #fb7185 135%);
+}
+.banner-ai {
+  background: linear-gradient(135deg, #1d4ed8 0%, #0d9488 55%, #34d399 135%);
+}
+.banner-mobile {
+  background: linear-gradient(135deg, #1e40af 0%, #4f46e5 55%, #38bdf8 135%);
+}
+
+.banner-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.project-cat-badge {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.banner-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.35rem;
+}
+
+.banner-metric {
+  z-index: 2;
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-info {
+  padding: 26px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-info h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: var(--text-main);
+}
+
+.project-info p {
+  color: var(--text-muted);
+  margin-bottom: 18px;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.project-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.project-tags span {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.case-btn {
+  background: transparent;
+  border: none;
+  color: var(--primary-cyan);
+  font-weight: 800;
+  font-size: 0.82rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.case-btn:hover {
+  text-decoration: underline;
+}
+
+/* Research Publications Section */
+.publications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.pub-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--shadow-soft);
+  position: relative;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pub-card:hover {
+  border-color: var(--border-purple);
+  transform: translateY(-5px);
+}
+
+.pub-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.pub-publisher {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(167, 139, 250, 0.14);
+  color: var(--accent-purple);
+  font-size: 0.78rem;
+  font-weight: 800;
+  border: 1px solid rgba(167, 139, 250, 0.32);
+}
+
+.cite-btn {
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.32);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+.cite-btn:hover {
+  background: var(--primary-cyan);
+  color: #0b1324;
+}
+
+.pub-card h3 {
+  font-size: 1.22rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.pub-card p {
+  color: var(--text-muted);
+  font-size: 0.94rem;
+  margin-bottom: 18px;
+}
+
+/* Contact Section */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 50px;
+  background: linear-gradient(150deg, rgba(35, 50, 84, 0.88), rgba(22, 33, 58, 0.92));
+  padding: 52px;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-cyan);
+}
+
+body.dark-theme .contact-container {
+  background: var(--bg-card);
+}
+
+.contact-text h2 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+  color: var(--text-main);
+}
+
+.contact-text > p {
+  color: var(--text-muted);
+  margin-bottom: 28px;
+  font-size: 1.02rem;
+}
+
+.contact-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-item-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  transition: var(--transition);
+}
+
+body.dark-theme .contact-item-card {
+  background: rgba(8, 145, 178, 0.05);
+}
+
+.contact-item-card:hover {
+  border-color: var(--border-cyan);
+}
+
+.contact-item-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.contact-item-left i {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.contact-item-left span {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.contact-item-left strong,
+.contact-item-left a {
+  color: var(--text-main);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.copy-mini-btn {
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.32);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+.copy-mini-btn:hover {
+  background: var(--primary-cyan);
+  color: #0b1324;
+}
+
+.contact-form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--text-muted);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 15px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background: rgba(15, 23, 42, 0.45);
+  color: var(--text-main);
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+
+body.dark-theme .form-group input,
+body.dark-theme .form-group select,
+body.dark-theme .form-group textarea {
+  background: #ffffff;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-cyan);
+  box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.18);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Modal for Case Studies, Resume & Command Palette */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(11, 18, 34, 0.78);
+  backdrop-filter: blur(10px);
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-backdrop.open {
+  display: flex;
+}
+
+.modal-box {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-cyan);
+  border-radius: var(--radius-lg);
+  max-width: 680px;
+  width: 100%;
+  padding: 34px;
+  box-shadow: var(--shadow-soft);
+  position: relative;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-main);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Command Palette List */
+.cmd-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.cmd-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 700;
+  transition: var(--transition);
+  text-align: left;
+}
+
+.cmd-item:hover {
+  border-color: var(--primary-cyan);
+  background: rgba(34, 211, 238, 0.14);
+  color: var(--primary-cyan);
+}
+
+/* Back to Top Floating Button */
+.back-to-top {
+  position: fixed;
+  bottom: 26px;
+  left: 26px;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-cyan);
+  color: var(--primary-cyan);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1500;
+  opacity: 0;
+  pointer-events: none;
+  transition: var(--transition);
+  box-shadow: var(--shadow-soft);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  background: var(--primary-cyan);
+  color: #0b1324;
+  transform: translateY(-3px);
+}
+
+/* Toast Notification */
+.toast-notification {
+  position: fixed;
+  bottom: 26px;
+  right: 26px;
+  background: var(--bg-elevated);
+  color: var(--text-main);
+  border: 1px solid var(--primary-cyan);
+  padding: 14px 22px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-glow-cyan);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  z-index: 3000;
+  transform: translateY(120px);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.toast-notification.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 55px 20px;
+  background: rgba(15, 23, 42, 0.72);
+  border-top: 1px solid var(--border-subtle);
+}
+
+body.dark-theme footer {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  width: 44px;
+  height: 44px;
+  background: var(--bg-card);
+  color: var(--text-main);
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  transition: var(--transition);
+  border: 1px solid var(--border-subtle);
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+}
+
+.social-links a:hover {
+  background: var(--primary-cyan);
+  color: #0b1324;
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-glow-cyan);
+}
+
+footer p {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1080px) {
+  .hero-grid,
+  .about-wrapper,
+  .sim-panel,
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid,
+  .workflow-grid,
+  .sim-tabs,
+  .services-grid,
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .float-badge,
+  .cmd-trigger-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: 16px;
+    right: 16px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    padding: 22px;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: var(--shadow-soft);
+    display: none;
+  }
+
+  .nav-links.mobile-open {
+    display: flex;
+  }
+
+  .mobile-toggle {
+    display: inline-flex;
+  }
+
+  .stats-grid,
+  .workflow-grid,
+  .sim-tabs,
+  .proficiency-strip,
+  .services-grid,
+  .skills-showcase,
+  .projects-grid,
+  .publications-grid,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-container,
+  .simulator-wrapper {
+    padding: 28px 22px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">M</span>
+        <span>Md Maruf<span class="text-cyan">.</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#simulator" class="nav-item">Role Fit</a>
+        <a href="#framework" class="nav-item">Process</a>
+        <a href="#services" class="nav-item">Competencies</a>
+        <a href="#experience" class="nav-item">Experience</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#publications" class="nav-item">Publications</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="cmd-trigger-btn" id="openCmdPaletteBtn" title="Quick Actions (Ctrl+K)">
+          <i class="fas fa-terminal text-cyan"></i> Quick Menu <span class="cmd-kbd">Ctrl+K</span>
+        </button>
+        <button class="theme-btn" id="themeToggle" title="Toggle Pearl Light / Deep Slate Theme" aria-label="Toggle Theme">
+          <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+        <button class="btn btn-primary btn-sm" id="openResumeBtn">
+          <i class="fas fa-file-lines"></i> Resume Summary
+        </button>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            Available for Business Development, Account Management & Tech Roles
+          </div>
+
+          <h1>Md <span class="gradient-text">Maruf</span></h1>
+
+          <div class="dynamic-type-line">
+            <i class="fas fa-bolt text-cyan"></i>
+            <span id="typewriterText">Business Development & Sales Strategy</span>
+            <span class="type-cursor"></span>
+          </div>
+
+          <div class="hero-role-tags">
+            <span class="role-chip cyan">
+              <i class="fas fa-chart-line"></i> Business Development & Account Management
+            </span>
+            <span class="role-chip purple">
+              <i class="fas fa-users-gear"></i> Team Lead (Sales Strategy & Operations)
+            </span>
+          </div>
+
+          <div class="specialist-card spotlight-card">
+            <div class="specialist-top">
+              <span class="specialist-title">— DUAL-DOMAIN ADVANTAGE</span>
+              <span class="tag tag-cyan">Data-Backed Execution</span>
+            </div>
+            <h3 class="specialist-heading">Sales Strategy, Client Retention & Full-Stack / AI Systems</h3>
+            <div class="specialist-bar">
+              <div class="specialist-bar-fill"></div>
+            </div>
+            <div class="specialist-tags">
+              <span class="tag tag-cyan">Sales Strategy & Negotiation</span>
+              <span class="tag tag-purple">CRM (HubSpot, Zoho, Salesforce)</span>
+              <span class="tag tag-cyan">Team Leadership (10-Member Team)</span>
+              <span class="tag tag-purple">Laravel 11 & FilamentPHP</span>
+              <span class="tag tag-neutral">Deep Learning (CNN-ViT & XAI)</span>
+              <span class="tag tag-neutral">Flutter & Dart</span>
+            </div>
+          </div>
+
+          <p class="hero-bio">
+            I am a <strong>Business Development and Account Management professional</strong> with a strong track record in sales strategy, client relations, and team leadership. Currently leading a <strong>10-member customer service and sales support team</strong> at an e-commerce enterprise, I oversee the entire client lifecycle from initial inquiry to post-purchase retention. Backed by a <strong>B.Sc. in Computer Science & Engineering</strong> and <strong>2 Springer research publications</strong>, I combine commercial negotiation with analytical, data-driven decision-making.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore Portfolio <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-gold">
+              <i class="fas fa-handshake"></i> Hire / Collaborate
+            </a>
+            <button class="btn btn-outline" id="heroQuickPitchBtn">
+              <i class="fas fa-wand-magic-sparkles text-cyan"></i> Why Hire Me?
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Right Card -->
+        <div class="hero-right">
+          <div class="float-badge float-tl">
+            <i class="fas fa-people-group text-cyan"></i>
+            <div>
+              <strong>Team Leader</strong>
+              <span>10-Member Sales & Support Ops</span>
+            </div>
+          </div>
+
+          <div class="profile-showcase-card spotlight-card">
+            <div class="profile-visual-frame">
+              <img
+                src="data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="420"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23172a4a"/><stop offset="52%" stop-color="%232b225a"/><stop offset="100%" stop-color="%23134e4a"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g)"/></svg>"
+                alt="Md Maruf"
+                class="profile-photo-img"
+                onerror="this.style.display='none'"
+              />
+              <div class="profile-monogram-layer">
+                <div class="profile-top-badges">
+                  <span class="verified-pill">
+                    <i class="fas fa-circle-check text-cyan"></i> Dhaka, Bangladesh
+                  </span>
+                  <span class="verified-pill">
+                    <i class="fas fa-graduation-cap text-purple"></i> B.Sc. in CSE
+                  </span>
+                </div>
+
+                <div class="avatar-centerpiece">
+                  <div class="avatar-ring">
+                    <div class="avatar-inner">MM</div>
+                  </div>
+                  <h3>MD Maruf</h3>
+                  <p>Sales Strategy • Operations • AI & Web Tech</p>
+                </div>
+
+                <div class="profile-quick-metrics">
+                  <div class="pq-item">
+                    <strong>10+</strong>
+                    <span>Team Led</span>
+                  </div>
+                  <div class="pq-item">
+                    <strong>2</strong>
+                    <span>Springer Papers</span>
+                  </div>
+                  <div class="pq-item">
+                    <strong>8+</strong>
+                    <span>Core Projects</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-contact-strip">
+              <span class="location-chip">
+                <i class="fas fa-phone text-cyan"></i> +880 1690-217578
+              </span>
+              <div class="social-mini">
+                <a href="https://www.linkedin.com/in/md-maruf-352b40449" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Maruf1102" target="_blank" rel="noopener noreferrer" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://maruf1102.github.io/Md-Maruf-Protfolio/" target="_blank" rel="noopener noreferrer" title="Live Portfolio">
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a href="mailto:mdmaruf110277@gmail.com" title="Email Me">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="float-badge float-br">
+            <i class="fas fa-book-journal-whills text-purple"></i>
+            <div>
+              <strong>2x Published Author</strong>
+              <span>Springer ICDMIS '25 & ITAI '26</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tech & Business Competency Ribbon -->
+  <div class="ribbon-bar">
+    <div class="container">
+      <div class="ribbon-track">
+        <span class="ribbon-item"><i class="fas fa-chart-line"></i> Sales Strategy & Negotiation</span>
+        <span class="ribbon-item"><i class="fas fa-users"></i> 10-Member Team Leadership</span>
+        <span class="ribbon-item"><i class="fas fa-database"></i> HubSpot • Zoho • Salesforce</span>
+        <span class="ribbon-item"><i class="fas fa-table"></i> Advanced Excel & KPI Dashboards</span>
+        <span class="ribbon-item"><i class="fas fa-code"></i> Laravel 11 & FilamentPHP</span>
+        <span class="ribbon-item"><i class="fas fa-brain"></i> Hybrid CNN-ViT & Explainable AI</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Key Metrics Strip -->
+  <section id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card spotlight-card">
+          <div class="stat-icon"><i class="fas fa-users-viewfinder"></i></div>
+          <h2>10</h2>
+          <p>TEAM MEMBERS LED</p>
+          <span class="stat-desc">Customer Service & Sales Support at Brotherhood Enterprise</span>
+        </div>
+        <div class="stat-card spotlight-card">
+          <div class="stat-icon"><i class="fas fa-file-signature"></i></div>
+          <h2>2</h2>
+          <p>SPRINGER PUBLICATIONS</p>
+          <span class="stat-desc">Published Research in NLP & Explainable Deep Learning</span>
+        </div>
+        <div class="stat-card spotlight-card">
+          <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+          <h2>5+</h2>
+          <p>LEADERSHIP & TECH ROLES</p>
+          <span class="stat-desc">Spanning B2B/B2C Sales, Operations, GDG & Software Dev</span>
+        </div>
+        <div class="stat-card spotlight-card">
+          <div class="stat-icon"><i class="fas fa-user-graduate"></i></div>
+          <h2>B.Sc.</h2>
+          <p>CSE GRADUATE (2022–2026)</p>
+          <span class="stat-desc">Daffodil International University • CGPA 3.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Education Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-id-card"></i> Executive Profile</span>
+        <h2 class="section-title">Bridging <span class="text-cyan">Commercial Growth</span> & <span class="text-purple">Technical Precision</span></h2>
+        <p class="section-subtitle">Combining end-to-end client lifecycle management with software engineering and data analytics.</p>
+      </div>
+
+      <div class="about-wrapper">
+        <div class="about-summary-card spotlight-card">
+          <h3><i class="fas fa-bullseye text-cyan"></i> Professional Summary</h3>
+          <p>
+            I am a business development and account management professional with hands-on experience in sales strategy, client relations, and cross-functional team leadership. Currently, I lead a <strong>10-person customer service and sales support team at Brotherhood Enterprise</strong>, managing the complete customer journey from first inquiry and order logistics through to post-purchase retention.
+          </p>
+          <p>
+            My earlier work in <strong>investment share sales at Barendra Properties Ltd</strong> and <strong>retail hardware coordination in DOHS, Dhaka</strong> equipped me to pitch high-value offerings, negotiate terms, and close complex deals.
+          </p>
+          <p>
+            Holding a <strong>Bachelor of Science in Computer Science and Engineering</strong> from Daffodil International University alongside <strong>two peer-reviewed Springer research papers</strong>, I bring strong analytical rigor, CRM fluency, and full-stack software capabilities to every business challenge.
+          </p>
+        </div>
+
+        <div class="education-highlight-card spotlight-card">
+          <div>
+            <h3><i class="fas fa-graduation-cap text-purple"></i> Education & Academic Foundation</h3>
+            <div class="edu-item">
+              <h4>Bachelor of Science in Computer Science & Engineering</h4>
+              <div class="uni">Daffodil International University (DIU) — Dhaka, Bangladesh</div>
+              <div class="edu-meta">
+                <span><i class="far fa-calendar-check"></i> June 2022 – June 2026</span>
+                <span><i class="fas fa-award text-cyan"></i> CGPA: 3.00</span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <h4>B.Sc. Thesis: Medicinal Plant Leaf Disease Detection</h4>
+              <div class="uni">Hybrid CNN-ViT Architecture with Explainable AI</div>
+              <div class="edu-meta">
+                <span><i class="fas fa-microscope"></i> Neem, Tulsi & Patharkuchi Leaves</span>
+                <span><i class="fas fa-code-branch text-purple"></i> Grad-CAM & LIME</span>
+              </div>
+            </div>
+          </div>
+          <div class="specialist-tags">
+            <span class="tag tag-cyan">Data-Driven Decisions</span>
+            <span class="tag tag-purple">GDG Campus Ambassador</span>
+            <span class="tag tag-neutral">Analytical Problem Solver</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW ADVANCED INTERACTIVE SECTION: Role-Fit & Impact Simulator -->
+  <section id="simulator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-sliders"></i> Interactive Role-Fit Explorer</span>
+        <h2 class="section-title">Select Your Target <span class="text-cyan">Role</span> to See My <span class="text-purple">Immediate Impact</span></h2>
+        <p class="section-subtitle">Click any role below to inspect how my real-world experience and technical toolkit align with your team's goals.</p>
+      </div>
+
+      <div class="simulator-wrapper spotlight-card">
+        <div class="sim-tabs" id="simTabs">
+          <button class="sim-tab-btn active" data-sim-role="bd">
+            <i class="fas fa-handshake-angle"></i>
+            <span>Business Dev & Sales</span>
+          </button>
+          <button class="sim-tab-btn" data-sim-role="ops">
+            <i class="fas fa-users-gear"></i>
+            <span>Account & Operations Lead</span>
+          </button>
+          <button class="sim-tab-btn" data-sim-role="fullstack">
+            <i class="fas fa-laptop-code"></i>
+            <span>Full-Stack Web & Mobile</span>
+          </button>
+          <button class="sim-tab-btn" data-sim-role="ai">
+            <i class="fas fa-brain"></i>
+            <span>AI / ML & Data Analytics</span>
+          </button>
+        </div>
+
+        <div class="sim-panel" id="simPanelContent">
+          <div class="sim-left">
+            <h3 id="simTitle">Business Development & Sales Strategy</h3>
+            <p id="simDesc">
+              Combining investor share pitching at Barendra Properties Ltd with active sales pipeline leadership at Brotherhood Enterprise to win new accounts and close high-value deals.
+            </p>
+            <ul class="sim-deliverables" id="simBullets">
+              <li><i class="fas fa-circle-check"></i> End-to-end B2B/B2C lead generation, investor pitching, and contract closing.</li>
+              <li><i class="fas fa-circle-check"></i> Structured CRM pipeline tracking using HubSpot, Zoho CRM, and Salesforce Basics.</li>
+              <li><i class="fas fa-circle-check"></i> Competitor intelligence and persuasive client pitch decks in MS PowerPoint & Canva.</li>
+            </ul>
+          </div>
+
+          <div class="sim-metrics-box" id="simMetrics">
+            <div class="sim-metric-row">
+              <span>Primary Experience</span>
+              <strong>Brotherhood Enterprise & Barendra Properties</strong>
+            </div>
+            <div class="sim-metric-row">
+              <span>Core Tools</span>
+              <strong>HubSpot • Zoho CRM • Excel Dashboards</strong>
+            </div>
+            <div class="sim-metric-row">
+              <span>Key Strength</span>
+              <strong>Client Negotiation & Repeat Account Growth</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-Stage Execution Framework -->
+  <section id="framework">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-compass-drafting"></i> Signature Methodology</span>
+        <h2 class="section-title">How I Drive <span class="text-cyan">Account Growth</span> & <span class="text-purple">Operational Excellence</span></h2>
+        <p class="section-subtitle">A structured 4-stage workflow applied across sales pipelines, customer support teams, and software delivery.</p>
+      </div>
+
+      <div class="workflow-grid">
+        <div class="workflow-step spotlight-card">
+          <span class="step-num">STAGE 01</span>
+          <h4>Market Research & Lead Discovery</h4>
+          <p>Identifying high-value prospects, analyzing competitor positioning, and structuring targeted outreach campaigns using CRM pipelines and digital tools.</p>
+        </div>
+        <div class="workflow-step spotlight-card">
+          <span class="step-num">STAGE 02</span>
+          <h4>Value Pitching & Deal Negotiation</h4>
+          <p>Presenting clear value propositions to clients and investors, addressing objections with data, and managing contract documentation through to close.</p>
+        </div>
+        <div class="workflow-step spotlight-card">
+          <span class="step-num">STAGE 03</span>
+          <h4>Operations & Logistics Execution</h4>
+          <p>Coordinating a 10-member team across order fulfillment, inventory planning, and quality assurance while removing daily workflow bottlenecks.</p>
+        </div>
+        <div class="workflow-step spotlight-card">
+          <span class="step-num">STAGE 04</span>
+          <h4>Retention, Upselling & KPI Reporting</h4>
+          <p>Conducting proactive post-purchase follow-ups to generate repeat orders, while tracking conversion KPIs in Excel dashboards for leadership.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Competencies Section -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-layer-group"></i> Core Competencies</span>
+        <h2 class="section-title">What I <span class="text-cyan">Deliver</span></h2>
+        <p class="section-subtitle">Six core pillars uniting revenue generation, operational excellence, and software innovation.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card spotlight-card">
+          <div>
+            <div class="service-icon"><i class="fas fa-handshake-angle"></i></div>
+            <h3>Business Development & Sales</h3>
+            <p>Driving revenue growth through targeted lead generation, investor pitching, persuasive presentations, and high-conversion deal negotiation.</p>
+          </div>
+          <ul class="service-bullets">
+            <li><i class="fas fa-check"></i> Sales Strategy & Pipeline Management</li>
+            <li><i class="fas fa-check"></i> Client Acquisition & Investor Pitching</li>
+            <li><i class="fas fa-check"></i> Market Research & Competitor Analysis</li>
+          </ul>
+        </div>
+
+        <div class="service-card spotlight-card">
+          <div>
+            <div class="service-icon"><i class="fas fa-user-shield"></i></div>
+            <h3>Account & Client Management</h3>
+            <p>Nurturing long-term client relationships from initial onboarding to post-sales support, driving repeat orders and sustainable account expansion.</p>
+          </div>
+          <ul class="service-bullets">
+            <li><i class="fas fa-check"></i> Client Relationship Management (CRM)</li>
+            <li><i class="fas fa-check"></i> Customer Retention & Strategic Upselling</li>
+            <li><i class="fas fa-check"></i> Post-Sales Support & Issue Resolution</li>
+          </ul>
+        </div>
+
+        <div class="service-card spotlight-card">
+          <div>
+            <div class="service-icon"><i class="fas fa-users-cog"></i></div>
+            <h3>Operations & Team Leadership</h3>
+            <p>Leading customer service and sales support teams, eliminating daily operational bottlenecks, and optimizing order and inventory workflows.</p>
+          </div>
+          <ul class="service-bullets">
+            <li><i class="fas fa-check"></i> 10-Member Team Supervision & QA</li>
+            <li><i class="fas fa-check"></i> Workflow & Order Logistics Optimization</li>
+            <li><i class="fas fa-check"></i> Inventory Control & Demand Planning</li>
+          </ul>
+        </div>
+
+        <div class="service-card spotlight-card">
+          <div>
+            <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
+            <h3>Business Analytics & Digital Growth</h3>
+            <p>Translating raw operational and sales data into actionable KPI dashboards, sales forecasts, and social commerce campaigns.</p>
+          </div>
+          <ul class="service-bullets">
+            <li><i class="fas fa-check"></i> Advanced Excel (Pivot, XLOOKUP, Dashboards)</li>
+            <li><i class="fas fa-check"></i> Meta Business Suite & Lead Campaigns</li>
+            <li><i class="fas fa-check"></i> KPI & Conversion Funnel Analytics</li>
+          </ul>
+        </div>
+
+        <div class="service-card spotlight-card">
+          <div>
+            <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Full-Stack Web & Mobile Solutions</h3>
+            <p>Architecting scalable multi-vendor e-commerce platforms, role-based admin dashboards, and cross-platform mobile applications.</p>
+          </div>
+          <ul class="service-bullets">
+            <li><i class="fas fa-check"></i> Laravel 11 & FilamentPHP Admin Systems</li>
+            <li><i class="fas fa-check"></i> Flutter & Dart Cross-Platform Apps</li>
+            <li><i class="fas fa-check"></i> RESTful APIs, MySQL & Supabase</li>
+          </ul>
+        </div>
+
+        <div class="service-card spotlight-card">
+          <div>
+            <div class="service-icon"><i class="fas fa-brain"></i></div>
+            <h3>AI, Deep Learning & Explainable AI</h3>
+            <p>Developing transparent machine learning models with CNNs, Vision Transformers (ViT), and NLP backed by Springer-published research.</p>
+          </div>
+          <ul class="service-bullets">
+            <li><i class="fas fa-check"></i> Hybrid CNN-ViT Computer Vision</li>
+            <li><i class="fas fa-check"></i> Explainable AI (Grad-CAM, SHAP, LIME)</li>
+            <li><i class="fas fa-check"></i> Multilingual NLP & Topic Modeling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-briefcase"></i> Career Progression</span>
+        <h2 class="section-title">Professional <span class="text-cyan">Experience</span></h2>
+        <p class="section-subtitle">Filter my career timeline across business leadership, sales, community, and software engineering.</p>
+      </div>
+
+      <div class="filter-tabs" id="expFilterTabs">
+        <button class="filter-btn active" data-exp-filter="all">All Roles (5)</button>
+        <button class="filter-btn" data-exp-filter="business">Business, Sales & Operations (3)</button>
+        <button class="filter-btn" data-exp-filter="tech">Software & Tech Community (2)</button>
+      </div>
+
+      <div class="journey-container" id="experienceList">
+        <div class="timeline-line"></div>
+
+        <!-- Role 1 -->
+        <div class="journey-card spotlight-card" data-exp-category="business">
+          <div class="timeline-dot"></div>
+          <div class="journey-top">
+            <div>
+              <h3>Business Development Executive & Team Leader</h3>
+              <p class="company">Brotherhood Enterprise</p>
+            </div>
+            <div class="journey-meta">
+              <span class="badge-sm"><i class="far fa-calendar-alt"></i> Aug 2026 – Present</span>
+              <span class="badge-loc"><i class="fas fa-location-dot"></i> Dhaka, Bangladesh</span>
+            </div>
+          </div>
+          <ul class="journey-list">
+            <li><strong>Lead a team of 10 people</strong> handling customer service and sales support, setting quality standards and keeping team performance on track.</li>
+            <li>Manage the <strong>complete customer journey</strong>, from product inquiries and order logistics to post-purchase support, ensuring a smooth client experience.</li>
+            <li>Identify bottlenecks in daily operations and resolve them, improving how quickly and reliably the team serves customers.</li>
+            <li>Build lasting relationships with clients through regular follow-up, generating <strong>repeat orders and long-term accounts</strong>.</li>
+            <li>Monitor team and sales performance metrics and report progress directly to management.</li>
+          </ul>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="journey-card spotlight-card" data-exp-category="tech">
+          <div class="timeline-dot"></div>
+          <div class="journey-top">
+            <div>
+              <h3>Freelance Software Developer</h3>
+              <p class="company">Independent & Remote Projects</p>
+            </div>
+            <div class="journey-meta">
+              <span class="badge-sm"><i class="far fa-calendar-alt"></i> Jan 2026 – Present</span>
+              <span class="badge-loc"><i class="fas fa-globe"></i> Remote</span>
+            </div>
+          </div>
+          <ul class="journey-list">
+            <li>Build custom websites and web applications for clients, turning their business needs into working, easy-to-use software.</li>
+            <li>Designed and built the front end and core back-end logic of <strong>"Fresh Mango,"</strong> a multi-vendor e-commerce platform with a role-based admin dashboard for managing vendors, products, and orders.</li>
+          </ul>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="journey-card spotlight-card" data-exp-category="tech">
+          <div class="timeline-dot"></div>
+          <div class="journey-top">
+            <div>
+              <h3>Campus Ambassador</h3>
+              <p class="company">Google Developer Groups (GDG) Sonargaon</p>
+            </div>
+            <div class="journey-meta">
+              <span class="badge-sm"><i class="far fa-calendar-alt"></i> Nov 2025 – Present</span>
+              <span class="badge-loc"><i class="fas fa-location-dot"></i> Dhaka, Bangladesh</span>
+            </div>
+          </div>
+          <ul class="journey-list">
+            <li>Promote GDG programs and developer events at <strong>Daffodil International University</strong>, helping grow the campus tech community.</li>
+            <li>Help organize events and outreach initiatives, collaborating with students and organizers to increase participation.</li>
+          </ul>
+        </div>
+
+        <!-- Role 4 -->
+        <div class="journey-card spotlight-card" data-exp-category="business">
+          <div class="timeline-dot"></div>
+          <div class="journey-top">
+            <div>
+              <h3>Inventory & Sales Coordinator</h3>
+              <p class="company">Retail & Tech Hardware Stores</p>
+            </div>
+            <div class="journey-meta">
+              <span class="badge-sm"><i class="far fa-calendar-alt"></i> Mar 2022 – May 2022</span>
+              <span class="badge-loc"><i class="fas fa-location-dot"></i> DOHS, Dhaka, Bangladesh</span>
+            </div>
+          </div>
+          <ul class="journey-list">
+            <li>Managed daily store operations, inventory control, and hardware demand planning.</li>
+            <li>Sourced tech products from suppliers and supported customers directly to keep satisfaction high.</li>
+          </ul>
+        </div>
+
+        <!-- Role 5 -->
+        <div class="journey-card spotlight-card" data-exp-category="business">
+          <div class="timeline-dot"></div>
+          <div class="journey-top">
+            <div>
+              <h3>Investment Sales Executive</h3>
+              <p class="company">Barendra Properties Ltd</p>
+            </div>
+            <div class="journey-meta">
+              <span class="badge-sm"><i class="far fa-calendar-alt"></i> Dec 2021 – Feb 2022</span>
+              <span class="badge-loc"><i class="fas fa-location-dot"></i> Pabna, Bangladesh</span>
+            </div>
+          </div>
+          <ul class="journey-list">
+            <li>Pitched company shares to prospective investors and built strong working relationships with them.</li>
+            <li>Handled client negotiations, explained the company's value clearly, and managed the paperwork needed to close share transactions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical & Business Skills Arsenal -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-sliders"></i> Complete Skill Matrix</span>
+        <h2 class="section-title">Business & Technical <span class="text-cyan">Arsenal</span></h2>
+        <p class="section-subtitle">Equipped with modern CRM platforms, business analytics suites, digital growth tools, and full-stack AI engineering.</p>
+      </div>
+
+      <!-- Domain Proficiency Meters -->
+      <div class="proficiency-strip">
+        <div class="prof-card spotlight-card">
+          <div class="prof-top">
+            <span>Sales Strategy, Client Acquisition & Negotiation</span>
+            <span>95%</span>
+          </div>
+          <div class="prof-track"><div class="prof-fill" style="width: 95%"></div></div>
+        </div>
+        <div class="prof-card spotlight-card">
+          <div class="prof-top">
+            <span>Team Leadership, CRM & Service Operations</span>
+            <span>92%</span>
+          </div>
+          <div class="prof-track"><div class="prof-fill" style="width: 92%"></div></div>
+        </div>
+        <div class="prof-card spotlight-card">
+          <div class="prof-top">
+            <span>Full-Stack Web & Mobile (Laravel 11, FilamentPHP, Flutter)</span>
+            <span>88%</span>
+          </div>
+          <div class="prof-track"><div class="prof-fill" style="width: 88%"></div></div>
+        </div>
+        <div class="prof-card spotlight-card">
+          <div class="prof-top">
+            <span>AI / Deep Learning Research (CNN-ViT, NLP, SHAP & LIME)</span>
+            <span>90%</span>
+          </div>
+          <div class="prof-track"><div class="prof-fill" style="width: 90%"></div></div>
+        </div>
+      </div>
+
+      <div class="skills-showcase">
+        <div class="skill-box cyan-tint spotlight-card">
+          <h3 class="skill-box-title"><i class="fas fa-funnel-dollar text-cyan"></i> Sales, CRM & Business Operations</h3>
+          <div class="pill-container">
+            <span class="pill pill-cyan">HubSpot CRM</span>
+            <span class="pill pill-cyan">Zoho CRM</span>
+            <span class="pill pill-cyan">Salesforce Basics</span>
+            <span class="pill pill-cyan">Sales Pipeline & Lead Tracking</span>
+            <span class="pill pill-cyan">E-Commerce Admin & Order Systems</span>
+            <span class="pill pill-cyan">Inventory & ERP Tools</span>
+            <span class="pill pill-cyan">Customer Support Ticketing</span>
+            <span class="pill pill-cyan">Client Negotiation & Pitching</span>
+          </div>
+        </div>
+
+        <div class="skill-box purple-tint spotlight-card">
+          <h3 class="skill-box-title"><i class="fas fa-chart-column text-purple"></i> Business Analytics & Reporting Suite</h3>
+          <div class="pill-container">
+            <span class="pill pill-purple">Advanced MS Excel</span>
+            <span class="pill pill-purple">Pivot Tables & VLOOKUP/XLOOKUP</span>
+            <span class="pill pill-purple">Sales Dashboards & Forecasting</span>
+            <span class="pill pill-purple">Google Workspace (Sheets, Docs, Slides)</span>
+            <span class="pill pill-purple">KPI & Conversion Analytics</span>
+            <span class="pill pill-purple">Market & Competitor Analysis</span>
+            <span class="pill pill-purple">MS PowerPoint (Client Pitch Decks)</span>
+          </div>
+        </div>
+
+        <div class="skill-box emerald-tint spotlight-card">
+          <h3 class="skill-box-title"><i class="fas fa-bullhorn text-emerald"></i> Digital Marketing & Growth Tools</h3>
+          <div class="pill-container">
+            <span class="pill pill-emerald">Meta Business Suite</span>
+            <span class="pill pill-emerald">Social Media Commerce</span>
+            <span class="pill pill-emerald">Lead Generation Campaigns</span>
+            <span class="pill pill-emerald">Basic SEO & E-Commerce Merchandising</span>
+            <span class="pill pill-emerald">Canva Design</span>
+            <span class="pill pill-emerald">Trello / Notion / Slack</span>
+          </div>
+        </div>
+
+        <div class="skill-box amber-tint spotlight-card">
+          <h3 class="skill-box-title"><i class="fas fa-microchip text-coral"></i> AI, Machine Learning & Data Science</h3>
+          <div class="pill-container">
+            <span class="pill pill-amber">Deep Learning</span>
+            <span class="pill pill-amber">CNN & Vision Transformers (ViT)</span>
+            <span class="pill pill-amber">Explainable AI (Grad-CAM, LIME, SHAP)</span>
+            <span class="pill pill-amber">Natural Language Processing (NLP)</span>
+            <span class="pill pill-amber">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-box full-width spotlight-card">
+          <h3 class="skill-box-title"><i class="fas fa-code text-cyan"></i> Software Engineering, Languages & Databases</h3>
+          <div class="pill-container">
+            <span class="pill pill-cyan">Laravel 11</span>
+            <span class="pill pill-cyan">FilamentPHP</span>
+            <span class="pill pill-purple">Flutter</span>
+            <span class="pill pill-purple">Dart</span>
+            <span class="pill pill-gray">PHP</span>
+            <span class="pill pill-gray">JavaScript</span>
+            <span class="pill pill-gray">HTML5 / CSS3</span>
+            <span class="pill pill-gray">RESTful APIs</span>
+            <span class="pill pill-gray">C++ & C</span>
+            <span class="pill pill-gray">Java</span>
+            <span class="pill pill-cyan">MySQL</span>
+            <span class="pill pill-cyan">Supabase</span>
+            <span class="pill pill-gray">Git & GitHub</span>
+            <span class="pill pill-gray">VS Code • Android Studio • Xcode</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-rocket"></i> Portfolio & Case Studies</span>
+        <h2 class="section-title">Featured <span class="text-cyan">Projects</span></h2>
+        <p class="section-subtitle">Filter by category or search by keyword across business operations, sales, web apps, and AI systems.</p>
+      </div>
+
+      <div class="projects-controls-bar">
+        <div class="filter-tabs" id="projectFilterTabs">
+          <button class="filter-btn active" data-proj-filter="all">All Projects (8)</button>
+          <button class="filter-btn" data-proj-filter="business">Business & Sales Case Studies (3)</button>
+          <button class="filter-btn" data-proj-filter="web">Web & Mobile Apps (3)</button>
+          <button class="filter-btn" data-proj-filter="ai">AI & Systems (2)</button>
+        </div>
+
+        <div class="project-search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="projectSearchInput" placeholder="Search projects (e.g. Laravel, Sales, CNN)..." aria-label="Search Projects" />
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Project 1: Brotherhood Enterprise -->
+        <div class="project-card spotlight-card" data-proj-category="business">
+          <div class="project-banner banner-ops">
+            <div class="banner-top">
+              <span class="project-cat-badge">Operations & Leadership</span>
+              <div class="banner-icon"><i class="fas fa-headset"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-users"></i> Brotherhood Enterprise • Team of 10
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Customer Service & Sales Operations Improvement</h3>
+              <p>Managed end-to-end service operations for a 10-member team covering product inquiries, order logistics, and post-purchase support while resolving workflow bottlenecks.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-cyan">Team Lead</span>
+                <span class="pill-cyan">Workflow QA</span>
+              </div>
+              <button class="case-btn" data-case="ops">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Barendra Properties -->
+        <div class="project-card spotlight-card" data-proj-category="business">
+          <div class="project-banner banner-sales">
+            <div class="banner-top">
+              <span class="project-cat-badge">Investment Sales</span>
+              <div class="banner-icon"><i class="fas fa-chart-line"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-handshake"></i> Barendra Properties Ltd • Share Closing
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Investor Pitching & Share Sales Campaign</h3>
+              <p>Pitched company shares to prospective investors, articulated corporate valuation clearly, led client negotiations, and managed share transaction documentation.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-purple">B2B/B2C Pitching</span>
+                <span class="pill-purple">Negotiation</span>
+              </div>
+              <button class="case-btn" data-case="investor">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Store Inventory -->
+        <div class="project-card spotlight-card" data-proj-category="business">
+          <div class="project-banner banner-retail">
+            <div class="banner-top">
+              <span class="project-cat-badge">Supply & Retail Ops</span>
+              <div class="banner-icon"><i class="fas fa-boxes-stacked"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-warehouse"></i> Retail & Tech Hardware Stores • DOHS
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Store Inventory & Hardware Demand Planning</h3>
+              <p>Managed inventory control and forecasted hardware demand alongside daily store operations, sourcing tech products directly from suppliers for high customer satisfaction.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-emerald">Inventory ERP</span>
+                <span class="pill-emerald">Sourcing</span>
+              </div>
+              <button class="case-btn" data-case="inventory">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Fresh Mango E-Commerce -->
+        <div class="project-card spotlight-card" data-proj-category="web">
+          <div class="project-banner banner-ecom">
+            <div class="banner-top">
+              <span class="project-cat-badge">Full-Stack E-Commerce</span>
+              <div class="banner-icon"><i class="fas fa-store"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-server"></i> Multi-Vendor Role-Based Platform
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Fresh Mango – Multi-Vendor E-Commerce Platform</h3>
+              <p>Built a scalable multi-vendor e-commerce platform in Laravel 11 with a FilamentPHP role-based admin dashboard for managing vendors, products, and customer orders.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-purple">Laravel 11</span>
+                <span class="pill-cyan">FilamentPHP</span>
+                <span class="pill-gray">MySQL</span>
+              </div>
+              <button class="case-btn" data-case="mango">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Medicinal Plant Leaf Disease Detection -->
+        <div class="project-card spotlight-card" data-proj-category="ai">
+          <div class="project-banner banner-ai">
+            <div class="banner-top">
+              <span class="project-cat-badge">B.Sc. Thesis • AI/ML</span>
+              <div class="banner-icon"><i class="fas fa-leaf"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-microscope"></i> Hybrid CNN-ViT + Grad-CAM & LIME
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Medicinal Plant Leaf Disease Detection</h3>
+              <p>Built a hybrid CNN-ViT deep learning model to detect diseases in Neem, Tulsi, and Patharkuchi leaves, applying Grad-CAM and LIME for explainable AI transparency.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-emerald">Python</span>
+                <span class="pill-cyan">CNN-ViT</span>
+                <span class="pill-purple">XAI</span>
+              </div>
+              <button class="case-btn" data-case="thesis">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: Pharmacy Management System -->
+        <div class="project-card spotlight-card" data-proj-category="web">
+          <div class="project-banner banner-mobile">
+            <div class="banner-top">
+              <span class="project-cat-badge">Mobile Application</span>
+              <div class="banner-icon"><i class="fas fa-pills"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-mobile-screen"></i> Cross-Platform Inventory & Sales App
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Pharmacy Management System</h3>
+              <p>Designed a cross-platform mobile application in Flutter and Dart to digitize pharmacy operations, including real-time medicine inventory and daily sales tracking.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-cyan">Flutter</span>
+                <span class="pill-purple">Dart</span>
+              </div>
+              <button class="case-btn" data-case="pharmacy">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7: To-Do List Mobile App -->
+        <div class="project-card spotlight-card" data-proj-category="web">
+          <div class="project-banner banner-sales">
+            <div class="banner-top">
+              <span class="project-cat-badge">Productivity App</span>
+              <div class="banner-icon"><i class="fas fa-list-check"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-bolt"></i> Flutter Task & Workflow Organizer
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>Cross-Platform To-Do & Task Manager</h3>
+              <p>A streamlined mobile productivity application built with Flutter and Dart to organize daily tasks, priority workflows, and personal schedules.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-purple">Flutter</span>
+                <span class="pill-gray">Dart</span>
+              </div>
+              <button class="case-btn" data-case="todo">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8: 3D Smart City & Core Systems -->
+        <div class="project-card spotlight-card" data-proj-category="ai">
+          <div class="project-banner banner-ops">
+            <div class="banner-top">
+              <span class="project-cat-badge">Computer Graphics & Systems</span>
+              <div class="banner-icon"><i class="fas fa-city"></i></div>
+            </div>
+            <div class="banner-metric">
+              <i class="fas fa-cube"></i> OpenGL C++ & University Logistics
+            </div>
+          </div>
+          <div class="project-info">
+            <div>
+              <h3>3D Smart City Simulation & DIU Bus System</h3>
+              <p>Interactive 3D smart city visualization built from scratch using OpenGL and C++, alongside a C-based university transportation management system.</p>
+            </div>
+            <div class="project-footer">
+              <div class="project-tags">
+                <span class="pill-cyan">OpenGL</span>
+                <span class="pill-gray">C / C++</span>
+              </div>
+              <button class="case-btn" data-case="smartcity">Case Details <i class="fas fa-arrow-up-right-from-square"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Publications Section -->
+  <section id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow"><i class="fas fa-book-open"></i> Peer-Reviewed Research</span>
+        <h2 class="section-title">Springer <span class="text-purple">Publications</span></h2>
+        <p class="section-subtitle">Backing business and engineering decisions with peer-reviewed research in NLP, Deep Learning, and Explainable AI.</p>
+      </div>
+
+      <div class="publications-grid">
+        <div class="pub-card spotlight-card">
+          <div>
+            <div class="pub-top-row">
+              <span class="pub-publisher">
+                <i class="fas fa-award"></i> Springer ITAI 2026
+              </span>
+              <button class="cite-btn" data-copy="Maruf, M. et al. (2026). Rule-Based Script Detection and Multilingual Topic Modeling for Low-Resource Bangladeshi Languages. Springer ITAI 2026.">
+                <i class="fas fa-quote-right"></i> Copy Citation
+              </button>
+            </div>
+            <h3>Rule-Based Script Detection and Multilingual Topic Modeling for Low-Resource Bangladeshi Languages</h3>
+            <p>
+              Co-authored a Natural Language Processing (NLP) research paper in Python focusing on script detection and topic modeling for underrepresented Bangladeshi languages.
+            </p>
+          </div>
+          <div class="pill-container">
+            <span class="pill pill-purple">Natural Language Processing</span>
+            <span class="pill pill-cyan">Python</span>
+            <span class="pill pill-gray">Topic Modeling</span>
+          </div>
+        </div>
+
+        <div class="pub-card spotlight-card">
+          <div>
+            <div class="pub-top-row">
+              <span class="pub-publisher">
+                <i class="fas fa-award"></i> Springer ICDMIS 2025
+              </span>
+              <button class="cite-btn" data-copy="Maruf, M. et al. (2025). Reliable Energy Consumption Prediction: Leveraging Deep Learning with SHAP and LIME for Transparency. Springer ICDMIS 2025.">
+                <i class="fas fa-quote-right"></i> Copy Citation
+              </button>
+            </div>
+            <h3>Reliable Energy Consumption Prediction: Leveraging Deep Learning with SHAP and LIME for Transparency</h3>
+            <p>
+              Published research predicting energy consumption using Deep Learning architectures integrated with SHAP and LIME explainable AI frameworks for model interpretability.
+            </p>
+          </div>
+          <div class="pill-container">
+            <span class="pill pill-cyan">Deep Learning</span>
+            <span class="pill pill-purple">SHAP & LIME (XAI)</span>
+            <span class="pill pill-gray">Predictive Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-container spotlight-card">
+        <div class="contact-text">
+          <span class="section-eyebrow"><i class="fas fa-comments"></i> Get In Touch</span>
+          <h2>Let's build lasting <span class="text-cyan">results together.</span></h2>
+          <p>
+            Looking for a dedicated Business Development Executive, Account Manager, Team Lead, or Full-Stack Developer? Reach out directly or copy my contact details below.
+          </p>
+
+          <div class="contact-cards-list">
+            <div class="contact-item-card">
+              <div class="contact-item-left">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <span>Direct Email</span>
+                  <a href="mailto:mdmaruf110277@gmail.com">mdmaruf110277@gmail.com</a>
+                </div>
+              </div>
+              <button class="copy-mini-btn" data-copy="mdmaruf110277@gmail.com">Copy</button>
+            </div>
+
+            <div class="contact-item-card">
+              <div class="contact-item-left">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <span>Phone / WhatsApp</span>
+                  <a href="tel:+8801690217578">+880 1690 217578</a>
+                </div>
+              </div>
+              <button class="copy-mini-btn" data-copy="+8801690217578">Copy</button>
+            </div>
+
+            <div class="contact-item-card">
+              <div class="contact-item-left">
+                <i class="fab fa-linkedin-in"></i>
+                <div>
+                  <span>LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/md-maruf-352b40449" target="_blank" rel="noopener noreferrer">linkedin.com/in/md-maruf-352b40449</a>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/md-maruf-352b40449" target="_blank" rel="noopener noreferrer" class="copy-mini-btn" style="text-decoration:none;">Visit</a>
+            </div>
+
+            <div class="contact-item-card">
+              <div class="contact-item-left">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <span>Location</span>
+                  <strong>Dhaka, Bangladesh</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="senderName">Your Name</label>
+                <input type="text" id="senderName" placeholder="e.g. Tariq Hasan" required />
+              </div>
+              <div class="form-group">
+                <label for="senderEmail">Your Email</label>
+                <input type="email" id="senderEmail" placeholder="name@company.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inquiryType">Inquiry Category</label>
+              <select id="inquiryType" required>
+                <option value="Business Development & Sales Role">Business Development & Account Management Role</option>
+                <option value="Operations & Team Leadership">Operations & Team Leadership Opportunity</option>
+                <option value="Web / E-Commerce Development">Custom Web / E-Commerce Software Project</option>
+                <option value="AI / Research Collaboration">AI / Machine Learning Collaboration</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage">Message</label>
+              <textarea id="senderMessage" placeholder="Tell me about the role, team, or project goals..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/md-maruf-352b40449" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/Maruf1102" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://maruf1102.github.io/Md-Maruf-Protfolio/" target="_blank" rel="noopener noreferrer" title="Portfolio"><i class="fas fa-globe"></i></a>
+      <a href="mailto:mdmaruf110277@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>© 2026 Md Maruf | Business Development, Team Leadership & Software Engineering Portfolio</p>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" title="Back to Top" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Interactive Case Study, Resume & Command Modal -->
+  <div class="modal-backdrop" id="infoModal">
+    <div class="modal-box">
+      <button class="modal-close" id="closeModalBtn" aria-label="Close Modal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div id="modalContentArea"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastMsg">
+    <i class="fas fa-circle-check text-cyan"></i>
+    <span id="toastText">Copied to clipboard!</span>
+  </div>
+
+  <script>
+    // Scroll Progress Bar, Navbar State, ScrollSpy & Back to Top
+    const nav = document.getElementById('navbar');
+    const scrollBar = document.getElementById('scrollProgressBar');
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    const sections = document.querySelectorAll('section, header#home');
+    const navItems = document.querySelectorAll('.nav-item');
+
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      scrollBar.style.width = pct + '%';
+
+      if (scrollTop > 40) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+
+      if (scrollTop > 400) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+
+      // Active Section ScrollSpy
+      let currentSection = '';
+      sections.forEach(sec => {
+        const top = sec.offsetTop - 130;
+        if (scrollTop >= top) {
+          currentSection = sec.getAttribute('id');
+        }
+      });
+      navItems.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + currentSection) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Interactive Mouse-Tracking Spotlight Glow on Cards
+    document.querySelectorAll('.spotlight-card').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        card.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+        card.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
+      });
+    });
+
+    // Dynamic Typewriter Effect in Hero
+    const roles = [
+      'Business Development & Sales Strategy',
+      'Account Management & Client Retention',
+      '10-Member Customer & Sales Team Leader',
+      'Full-Stack Laravel 11 & Flutter Developer',
+      '2x Springer Published AI/ML Researcher'
+    ];
+    let roleIdx = 0;
+    let charIdx = 0;
+    let isDeleting = false;
+    const typeEl = document.getElementById('typewriterText');
+
+    function runTypewriter() {
+      const current = roles[roleIdx];
+      if (isDeleting) {
+        charIdx--;
+      } else {
+        charIdx++;
+      }
+      typeEl.textContent = current.substring(0, charIdx);
+
+      let delay = isDeleting ? 35 : 65;
+      if (!isDeleting && charIdx === current.length) {
+        delay = 2000;
+        isDeleting = true;
+      } else if (isDeleting && charIdx === 0) {
+        isDeleting = false;
+        roleIdx = (roleIdx + 1) % roles.length;
+        delay = 350;
+      }
+      setTimeout(runTypewriter, delay);
+    }
+    setTimeout(runTypewriter, 1200);
+
+    // Interactive Role-Fit Simulator Data & Handler
+    const simData = {
+      bd: {
+        title: 'Business Development & Sales Strategy',
+        desc: 'Combining investor share pitching at Barendra Properties Ltd with active sales pipeline leadership at Brotherhood Enterprise to win new accounts and close high-value deals.',
+        bullets: [
+          'End-to-end B2B/B2C lead generation, investor pitching, and contract closing.',
+          'Structured CRM pipeline tracking using HubSpot, Zoho CRM, and Salesforce Basics.',
+          'Competitor intelligence and persuasive client pitch decks in MS PowerPoint & Canva.'
+        ],
+        metrics: [
+          ['Primary Experience', 'Brotherhood Enterprise & Barendra Properties'],
+          ['Core Tools', 'HubSpot • Zoho CRM • Excel Dashboards'],
+          ['Key Strength', 'Client Negotiation & Repeat Account Growth']
+        ]
+      },
+      ops: {
+        title: 'Account Management & Operations Leadership',
+        desc: 'Leading a 10-person customer service and sales support team while managing order logistics, inventory demand planning, and post-purchase client retention.',
+        bullets: [
+          'Direct supervision of a 10-member team with strict quality standards and KPI tracking.',
+          'Workflow bottleneck elimination across inquiries, order fulfillment, and after-sales care.',
+          'Hands-on hardware inventory control and supplier sourcing experience in DOHS, Dhaka.'
+        ],
+        metrics: [
+          ['Team Size Led', '10 Customer Service & Sales Support Staff'],
+          ['Operational Scope', 'Inquiry → Order Logistics → Retention'],
+          ['Reporting Suite', 'Advanced Excel (Pivot, XLOOKUP, KPIs)']
+        ]
+      },
+      fullstack: {
+        title: 'Full-Stack Web & Cross-Platform Mobile Engineering',
+        desc: 'Turning business requirements into production-ready multi-vendor e-commerce platforms, role-based admin dashboards, and mobile apps.',
+        bullets: [
+          'Architected "Fresh Mango," a multi-vendor e-commerce platform using Laravel 11 & MySQL.',
+          'Built role-based vendor, product, and order management dashboards with FilamentPHP.',
+          'Developed cross-platform mobile apps in Flutter & Dart (Pharmacy Management & Task Apps).'
+        ],
+        metrics: [
+          ['Web Stack', 'Laravel 11 • FilamentPHP • REST APIs'],
+          ['Mobile & DB', 'Flutter • Dart • MySQL • Supabase'],
+          ['Delivery Style', 'Clean MVC Architecture & Responsive UI']
+        ]
+      },
+      ai: {
+        title: 'AI / Machine Learning & Explainable Data Science',
+        desc: 'Backed by a B.Sc. in CSE and two peer-reviewed Springer publications in Deep Learning, Computer Vision, and Natural Language Processing.',
+        bullets: [
+          'B.Sc. Thesis: Hybrid CNN-ViT model for Medicinal Plant Leaf Disease Detection.',
+          'Published Springer ICDMIS 2025 paper on Energy Consumption Prediction using SHAP & LIME.',
+          'Co-authored Springer ITAI 2026 NLP paper on Low-Resource Bangladeshi Languages.'
+        ],
+        metrics: [
+          ['Publications', '2 Peer-Reviewed Springer Papers (2025 & 2026)'],
+          ['AI Models', 'Hybrid CNN-ViT • Deep Learning • NLP'],
+          ['Explainable AI', 'Grad-CAM • SHAP • LIME Transparency']
+        ]
+      }
+    };
+
+    const simButtons = document.querySelectorAll('[data-sim-role]');
+    const simTitle = document.getElementById('simTitle');
+    const simDesc = document.getElementById('simDesc');
+    const simBullets = document.getElementById('simBullets');
+    const simMetrics = document.getElementById('simMetrics');
+
+    simButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        simButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const roleKey = btn.getAttribute('data-sim-role');
+        const info = simData[roleKey];
+        if (!info) return;
+        simTitle.textContent = info.title;
+        simDesc.textContent = info.desc;
+        simBullets.innerHTML = info.bullets.map(b => `<li><i class="fas fa-circle-check"></i> ${b}</li>`).join('');
+        simMetrics.innerHTML = info.metrics.map(m => `
+          <div class="sim-metric-row">
+            <span>${m[0]}</span>
+            <strong>${m[1]}</strong>
+          </div>
+        `).join('');
+      });
+    });
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.getElementById('navLinks');
+    mobileMenuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('mobile-open');
+    });
+
+    document.querySelectorAll('.nav-item').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('mobile-open');
+      });
+    });
+
+    // Pearl Light / Deep Slate Dark Theme Toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+      const isDark = document.body.classList.contains('dark-theme');
+      themeIcon.className = isDark ? 'fas fa-moon' : 'fas fa-sun';
+      showToast(isDark ? 'Switched to Soft Daylight Mode' : 'Switched to Hybrid Twilight-Luminous Mode');
+    });
+
+    // Experience Filter Tabs
+    const expButtons = document.querySelectorAll('[data-exp-filter]');
+    const expCards = document.querySelectorAll('[data-exp-category]');
+    expButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        expButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-exp-filter');
+        expCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-exp-category') === filter) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Project Category Filter + Live Search Input
+    const projButtons = document.querySelectorAll('[data-proj-filter]');
+    const projCards = document.querySelectorAll('[data-proj-category]');
+    const searchInput = document.getElementById('projectSearchInput');
+    let activeProjCategory = 'all';
+
+    function filterProjects() {
+      const query = searchInput.value.trim().toLowerCase();
+      projCards.forEach(card => {
+        const catMatch = activeProjCategory === 'all' || card.getAttribute('data-proj-category') === activeProjCategory;
+        const textMatch = !query || card.textContent.toLowerCase().includes(query);
+        card.style.display = (catMatch && textMatch) ? 'flex' : 'none';
+      });
+    }
+
+    projButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        projButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeProjCategory = btn.getAttribute('data-proj-filter');
+        filterProjects();
+      });
+    });
+
+    searchInput.addEventListener('input', filterProjects);
+
+    // Toast Helper
+    const toastEl = document.getElementById('toastMsg');
+    const toastText = document.getElementById('toastText');
+    let toastTimer = null;
+    function showToast(message) {
+      toastText.textContent = message;
+      toastEl.classList.add('show');
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toastEl.classList.remove('show');
+      }, 3000);
+    }
+
+    // Copy to Clipboard Buttons
+    function copyValue(val) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(val).then(() => {
+          showToast('Copied: ' + val);
+        }).catch(() => fallbackCopy(val));
+      } else {
+        fallbackCopy(val);
+      }
+    }
+
+    document.querySelectorAll('[data-copy]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        copyValue(btn.getAttribute('data-copy'));
+      });
+    });
+
+    function fallbackCopy(text) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast('Copied to clipboard!');
+      } catch (e) {
+        showToast('Copy ready!');
+      }
+      document.body.removeChild(ta);
+    }
+
+    // Case Study & Resume Modal Data
+    const caseData = {
+      ops: {
+        badge: 'Brotherhood Enterprise • Team of 10',
+        title: 'Customer Service & Sales Operations Improvement',
+        bullets: [
+          'Managed end-to-end service operations for a 10-member team, covering product inquiries, order logistics, and post-purchase support.',
+          'Identified recurring bottlenecks in the daily workflow and resolved them to improve team response speed and service efficiency.',
+          'Established clear quality standards, tracked daily KPIs, built repeat client relationships, and reported progress to senior management.'
+        ]
+      },
+      investor: {
+        badge: 'Barendra Properties Ltd • Investment Sales',
+        title: 'Investor Pitching & Share Sales Campaign',
+        bullets: [
+          'Pitched company shares to prospective investors and articulated the company value proposition clearly.',
+          'Led client negotiations, built lasting investor trust, and managed all transaction documentation required to close share deals.'
+        ]
+      },
+      inventory: {
+        badge: 'Retail & Tech Hardware Stores • DOHS, Dhaka',
+        title: 'Store Inventory & Hardware Demand Planning',
+        bullets: [
+          'Managed daily store operations, stock audits, inventory control, and future hardware demand planning.',
+          'Sourced technology products directly from suppliers and resolved customer inquiries on-site to maintain high satisfaction.'
+        ]
+      },
+      mango: {
+        badge: 'Laravel 11 • FilamentPHP • MySQL',
+        title: 'Fresh Mango – Multi-Vendor E-Commerce Platform',
+        bullets: [
+          'Built a scalable multi-vendor e-commerce platform using Laravel 11 and MySQL.',
+          'Integrated FilamentPHP to deliver a role-based, user-friendly administrative dashboard for managing vendors, product catalogs, and customer orders.'
+        ]
+      },
+      thesis: {
+        badge: 'B.Sc. Thesis • Python, CNN-ViT, Grad-CAM, LIME',
+        title: 'Medicinal Plant Leaf Disease Detection',
+        bullets: [
+          'Developed a hybrid Convolutional Neural Network and Vision Transformer (CNN-ViT) model to detect leaf diseases in Neem, Tulsi, and Patharkuchi.',
+          'Applied Grad-CAM and LIME (Explainable AI) to visually explain model predictions and ensure diagnostic transparency and accuracy.'
+        ]
+      },
+      pharmacy: {
+        badge: 'Flutter • Dart • Cross-Platform Mobile',
+        title: 'Pharmacy Management System',
+        bullets: [
+          'Designed and built a cross-platform mobile application in Flutter to digitize everyday pharmacy operations.',
+          'Implemented modules for medicine stock tracking, expiry monitoring, and daily sales recording.'
+        ]
+      },
+      todo: {
+        badge: 'Flutter • Dart • Mobile Productivity',
+        title: 'Cross-Platform To-Do & Task Manager',
+        bullets: [
+          'Created a clean, responsive cross-platform mobile application for daily task prioritization and workflow tracking.',
+          'Engineered smooth state updates and intuitive task filtering for everyday productivity.'
+        ]
+      },
+      smartcity: {
+        badge: 'OpenGL • C++ • C Programming',
+        title: '3D Smart City Simulation & DIU Bus System',
+        bullets: [
+          'Visualized an interactive 3D smart city environment from scratch using OpenGL and C++.',
+          'Built a core C programming application to manage Daffodil International University (DIU) bus schedules and route logistics.'
+        ]
+      }
+    };
+
+    const modal = document.getElementById('infoModal');
+    const modalContent = document.getElementById('modalContentArea');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    document.querySelectorAll('[data-case]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const key = btn.getAttribute('data-case');
+        const item = caseData[key];
+        if (!item) return;
+        modalContent.innerHTML = `
+          <span class="section-eyebrow">${item.badge}</span>
+          <h3 style="font-size:1.5rem;font-weight:800;margin-bottom:16px;">${item.title}</h3>
+          <ul class="journey-list" style="margin-bottom:22px;">
+            ${item.bullets.map(b => `<li style="margin-bottom:10px;">${b}</li>`).join('')}
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-sm" id="modalDiscussBtn">Discuss This Project <i class="fas fa-arrow-right"></i></a>
+        `;
+        modal.classList.add('open');
+        const discussBtn = document.getElementById('modalDiscussBtn');
+        if (discussBtn) {
+          discussBtn.addEventListener('click', () => modal.classList.remove('open'));
+        }
+      });
+    });
+
+    // Why Hire Me Pitch Modal
+    document.getElementById('heroQuickPitchBtn').addEventListener('click', () => {
+      modalContent.innerHTML = `
+        <span class="section-eyebrow"><i class="fas fa-bolt"></i> Executive Value Proposition</span>
+        <h3 style="font-size:1.5rem;font-weight:800;margin-bottom:14px;">Why Md Maruf Stands Out</h3>
+        <ul class="journey-list" style="margin-bottom:20px;">
+          <li style="margin-bottom:10px;"><strong>Proven Team Leadership:</strong> Currently leading a 10-person customer service & sales support team at Brotherhood Enterprise, managing end-to-end client satisfaction and repeat orders.</li>
+          <li style="margin-bottom:10px;"><strong>Real-World Closing Experience:</strong> Hands-on background pitching company shares at Barendra Properties Ltd and coordinating retail tech inventory in DOHS, Dhaka.</li>
+          <li style="margin-bottom:10px;"><strong>Technical & Analytical Edge:</strong> B.Sc. in CSE (DIU) + 2 peer-reviewed Springer research papers + full-stack proficiency in Laravel 11, FilamentPHP, Flutter, CRM suites, and Advanced Excel.</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-sm" id="pitchContactBtn">Schedule a Conversation <i class="fas fa-arrow-right"></i></a>
+      `;
+      modal.classList.add('open');
+      const pitchBtn = document.getElementById('pitchContactBtn');
+      if (pitchBtn) {
+        pitchBtn.addEventListener('click', () => modal.classList.remove('open'));
+      }
+    });
+
+    // Quick Command Palette Modal (Ctrl+K or Button)
+    function openCommandPalette() {
+      modalContent.innerHTML = `
+        <span class="section-eyebrow"><i class="fas fa-terminal"></i> Quick Action Palette</span>
+        <h3 style="font-size:1.4rem;font-weight:800;margin-bottom:8px;">Jump to Section or Action</h3>
+        <div class="cmd-list">
+          <button class="cmd-item" data-cmd-action="copy-email"><span><i class="fas fa-envelope text-cyan"></i> Copy Email (mdmaruf110277@gmail.com)</span><span>Enter</span></button>
+          <button class="cmd-item" data-cmd-action="copy-phone"><span><i class="fas fa-phone text-purple"></i> Copy Phone (+8801690217578)</span><span>Enter</span></button>
+          <button class="cmd-item" data-cmd-action="goto-sim"><span><i class="fas fa-sliders text-cyan"></i> Open Interactive Role-Fit Simulator</span><span>#simulator</span></button>
+          <button class="cmd-item" data-cmd-action="goto-exp"><span><i class="fas fa-briefcase text-purple"></i> Jump to Professional Experience</span><span>#experience</span></button>
+          <button class="cmd-item" data-cmd-action="goto-proj"><span><i class="fas fa-rocket text-cyan"></i> Jump to Featured Case Studies</span><span>#projects</span></button>
+          <button class="cmd-item" data-cmd-action="goto-pub"><span><i class="fas fa-book-open text-purple"></i> Jump to Springer Research Papers</span><span>#publications</span></button>
+          <button class="cmd-item" data-cmd-action="print-cv"><span><i class="fas fa-print text-cyan"></i> Print / Save Portfolio as PDF</span><span>PDF</span></button>
+        </div>
+      `;
+      modal.classList.add('open');
+
+      modalContent.querySelectorAll('[data-cmd-action]').forEach(item => {
+        item.addEventListener('click', () => {
+          const act = item.getAttribute('data-cmd-action');
+          modal.classList.remove('open');
+          if (act === 'copy-email') copyValue('mdmaruf110277@gmail.com');
+          if (act === 'copy-phone') copyValue('+8801690217578');
+          if (act === 'goto-sim') location.hash = '#simulator';
+          if (act === 'goto-exp') location.hash = '#experience';
+          if (act === 'goto-proj') location.hash = '#projects';
+          if (act === 'goto-pub') location.hash = '#publications';
+          if (act === 'print-cv') window.print();
+        });
+      });
+    }
+
+    document.getElementById('openCmdPaletteBtn').addEventListener('click', openCommandPalette);
+    window.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        openCommandPalette();
+      }
+    });
+
+    // Quick Resume Summary Modal
+    document.getElementById('openResumeBtn').addEventListener('click', () => {
+      modalContent.innerHTML = `
+        <span class="section-eyebrow"><i class="fas fa-file-user"></i> Executive Resume Snapshot</span>
+        <h3 style="font-size:1.55rem;font-weight:800;margin-bottom:6px;">MD Maruf</h3>
+        <p style="color:var(--primary-cyan);font-weight:700;margin-bottom:16px;">Business Development & Account Management Professional | Team Lead</p>
+        <p style="color:var(--text-muted);font-size:0.93rem;margin-bottom:16px;">
+          <strong>Contact:</strong> +8801690217578 • mdmaruf110277@gmail.com • Dhaka, Bangladesh
+        </p>
+        <div style="border-top:1px solid var(--border-subtle);padding-top:14px;margin-bottom:14px;">
+          <h4 style="font-size:0.95rem;margin-bottom:8px;color:var(--text-main);">Key Experience</h4>
+          <ul class="journey-list" style="font-size:0.88rem;">
+            <li><strong>BDE & Team Leader</strong> — Brotherhood Enterprise (Aug 2026 – Present)</li>
+            <li><strong>Freelance Software Developer</strong> — Independent & Remote (Jan 2026 – Present)</li>
+            <li><strong>Campus Ambassador</strong> — GDG Sonargaon (Nov 2025 – Present)</li>
+            <li><strong>Inventory & Sales Coordinator</strong> — Retail & Tech Hardware Stores (Mar – May 2022)</li>
+            <li><strong>Investment Sales Executive</strong> — Barendra Properties Ltd (Dec 2021 – Feb 2022)</li>
+          </ul>
+        </div>
+        <div style="border-top:1px solid var(--border-subtle);padding-top:14px;margin-bottom:18px;">
+          <h4 style="font-size:0.95rem;margin-bottom:6px;color:var(--text-main);">Education & Research</h4>
+          <p style="color:var(--text-muted);font-size:0.88rem;">
+            B.Sc. in Computer Science & Engineering — Daffodil International University (June 2022 – June 2026, CGPA: 3.00) • 2x Published Author in Springer (ITAI 2026 & ICDMIS 2025).
+          </p>
+        </div>
+        <button class="btn btn-primary btn-sm" id="printResumeBtn"><i class="fas fa-print"></i> Print / Save Page as PDF</button>
+      `;
+      modal.classList.add('open');
+      const printBtn = document.getElementById('printResumeBtn');
+      if (printBtn) {
+        printBtn.addEventListener('click', () => {
+          modal.classList.remove('open');
+          window.print();
+        });
+      }
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+      modal.classList.remove('open');
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.classList.remove('open');
+    });
+
+    // Interactive Contact Form Submission
+    document.getElementById('contactForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('senderName').value.trim();
+      const category = document.getElementById('inquiryType').value;
+      showToast(`Thank you, ${name}! Your "${category}" message is ready.`);
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>
